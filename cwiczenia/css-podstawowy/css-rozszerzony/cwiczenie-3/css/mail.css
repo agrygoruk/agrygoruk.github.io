@@ -1,0 +1,33 @@
+#p1 {
+    display: block;
+    background-color: aliceblue;
+}
+
+#p2 {
+    display: inline;
+    background-color: coral;
+    
+}
+
+#inline-p1 {
+    background-color: yellow;
+}
+
+#inline-p2 {
+    background-color: lightpink;
+}
+
+/* jak połąćzyć elementy liniowe? poniżej niedziała */
+
+#elementy-liniowe {
+    display: inline;
+}
+
+li  {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: beige;
+    border: 1px dotted red;
+}

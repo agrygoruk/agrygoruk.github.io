@@ -1,0 +1,30 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: aqua;
+}
+
+p:lang(pl) {
+    color: aquamarine;
+}
+/* słowo "przed" pojawia się dopiero po kliknięciu na link - patrz poniżej #p */
+
+#p1:target::before {
+    content: "przed";
+    color: green;
+} 
+
+
+.tabelka div:nth-child(even) {
+    background-color: lightpink;
+}
+
+.tabelka div:nth-child(odd) {
+    background-color: yellow;
+}
+
+.tabelka div:nth-child(5n+4) {
+    background-color: green;
+} 
